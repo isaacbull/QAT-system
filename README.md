@@ -12,12 +12,18 @@ For this assessment, you are required to build out a flask application with 3 ma
 3. The “evaluate/” endpoint: This endpoint would be used to evaluate the response provided by the user to the “test_question”.
 The expected response format for the following endpoints are indicated below, respectively:
 1. “upload/” : Feel free to return the response based on your own discretion.
-2. “query/”: The json response should be as follows: {
-“answer”: “ ...”, “bullet_points”: [ ..., ..., ..., ...] “test_question”: “...”, “test_question_id:”...”
-}
-3. “evaluate/” :The json response should be as follows: {
-“knowledge_understood”: bool, “knowledge_confidence”: int
-}
+2. “query/”: The json response should be as follows:
+                                                       {
+                                                       “answer”: “ ...”,
+                                                       “bullet_points”: [ ..., ..., ..., ...]
+                                                       “test_question”: “...”,
+                                                       “test_question_id:”...”
+                                                       }
+4. “evaluate/” :The json response should be as follows:
+                                                      {
+                                                        “knowledge_understood”: bool,
+                                                        “knowledge_confidence”: int
+                                                      }
  
 Response definition for “query/”:
 1. answer: The answer provided by tthe system to the question asked.
