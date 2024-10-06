@@ -6,6 +6,7 @@ We will be building a Q.A.T (Question, Answer & Test) system for research docume
 :star_struck:
 
 to run this app:
+
 **1. create and cd into new directory**
 ```bash
 mkdir new_directory && cd new_directory
