@@ -29,7 +29,7 @@ source .venv/bin/activate
 ```
 **6. install google gen.ai**
 ```bash
-pip install -q google-generativeai
+pip install google-generativeai
 ```
 **7. install flask**
 ```bash
