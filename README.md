@@ -41,3 +41,5 @@ python3.10 app.py
 ```
 **now you can try end points on 127.0.0.1/5000 on your browser**
 
+
+### There are many things we can do to make this API better, one obvious one is not having an API KEY on the file but this is a demo, to show the idea behind the implementation of the requirement...
